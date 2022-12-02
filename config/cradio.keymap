@@ -24,7 +24,7 @@
     combo_Bksp {
       timeout-ms = <50>;
       key-positions = <8 9>;
-      layers = <LOWER BASE RAISE>;
+      layers = <BASE LOWER RAISE>;
       bindings = <&kp BS>; 
     };
     
@@ -42,17 +42,6 @@
       bindings = <&kp TAB>; 
     };
   };
-
-   macros {
-        pswd: pswd {
-            label = "pswd";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp LS(N) &kp U &kp M &kp NUMBER_3 &kp N &kp NUMBER_3 &kp R &kp AT_SIGN &kp RETURN>
-                ;
-        };
-    };
 
   behaviors {
     hm: homerow_mods {
