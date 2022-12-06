@@ -73,7 +73,7 @@
       bindings = <
         &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P 
 		&hm LSHFT A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &hm RSHFT SEMICOLON 
-		&hm LCTRL Z &hm LALT X &kp C &kp V &kp B &kp N &kp M &kp COMMA &hm RALT null &hm RCTRL SLASH 
+		&hm LCTRL Z &hm LALT X &kp C &kp V &kp B &kp N &kp M &kp COMMA &hm RALT DOT &hm RCTRL SLASH 
 		&mo LOWER &kp SPACE &kp BACKSPACE &mo RAISE 
       >;
     };
