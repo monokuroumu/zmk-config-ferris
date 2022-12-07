@@ -72,10 +72,10 @@
 
         Base_layer {
             bindings = <
-       &kp Q       &kp W   &kp E    &kp R        &kp T            &kp Y     &kp U      &kp I         &kp O                &kp P
- &hm LSHFT A       &kp S   &kp D    &kp F        &kp G            &kp H     &kp J      &kp K         &kp L  &hm RSHFT SEMICOLON
- &hm LCTRL Z  &hm LALT X   &kp C    &kp V        &kp B            &kp N     &kp M  &kp COMMA  &hm RALT DOT      &hm RCTRL SLASH
-                                  &kp ESC  &lt 1 SPACE  &lt 2 BACKSPACE  &kp LGUI
+       &kp Q       &kp W   &kp E    &kp R        &kp T            &kp Y    &kp U      &kp I         &kp O                &kp P
+ &hm LSHFT A       &kp S   &kp D    &kp F        &kp G            &kp H    &kp J      &kp K         &kp L  &hm RSHFT SEMICOLON
+ &hm LCTRL Z  &hm LALT X   &kp C    &kp V        &kp B            &kp N    &kp M  &kp COMMA  &hm RALT DOT      &hm RCTRL SLASH
+                                  &kp ESC  &lt 1 SPACE  &lt 2 BACKSPACE  &kp TAB
             >;
         };
 
@@ -84,7 +84,7 @@
  &kp EXCLAMATION    &kp AT_SIGN              &kp HASH             &kp DOLLAR   &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
    &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NUBS)       &kp LEFT       &kp DOWN        &kp UP             &kp RIGHT       &kp SINGLE_QUOTE
   &kp LEFT_SHIFT          &none                 &none                  &none  &kp CAPSLOCK  &kp PAGE_DOWN        &kp END      &kp HOME           &kp PAGE_UP           &kp LEFT_GUI
-                                                                      &trans        &trans     &kp RETURN          &mo 3
+                                                                       &mo 3        &trans     &kp RETURN          &none
             >;
         };
 
@@ -93,7 +93,7 @@
  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
     &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp NUBS         &none         &none         &none         &none         &none
         &none         &none             &none              &none         &none         &none         &none         &none         &none         &none
-                                                           &mo 3         &none         &none        &trans
+                                                           &none         &none         &none         &mo 3
             >;
         };
 
