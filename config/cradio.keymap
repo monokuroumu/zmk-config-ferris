@@ -16,28 +16,28 @@
         combo_Esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            layers = <  >;
+            layers = <0 0 0>;
             bindings = <&kp ESC>;
         };
 
         combo_Bksp {
             timeout-ms = <50>;
             key-positions = <8 9>;
-            layers = <  >;
+            layers = <0 0 0>;
             bindings = <&kp BSPC>;
         };
 
         combo_Enter {
             timeout-ms = <50>;
             key-positions = <15 16>;
-            layers = <  >;
+            layers = <0 0 0>;
             bindings = <&kp RET>;
         };
 
         combo_Tab {
             timeout-ms = <50>;
             key-positions = <13 14>;
-            layers = <  >;
+            layers = <0 0 0>;
             bindings = <&kp TAB>;
         };
     };
@@ -99,16 +99,16 @@
 
         Adjust_layer {
             bindings = <
- &trans  &kp F1   &kp F2   &kp F3   &kp F4   &none   &none   &none        &kp K_PREV    &kp K_VOLUME_UP
-  &none  &kp F5   &kp F6   &kp F7   &kp F8   &none   &none   &none  &kp K_PLAY_PAUSE         &kp K_MUTE
-  &pswd  &kp F9  &kp F10  &kp F11  &kp F12   &none   &none   &none        &kp K_NEXT  &kp K_VOLUME_DOWN
+ &trans  &kp F1   &kp F2   &kp F3   &kp F4   &none   &none   &none  &kp C_PREV    &kp C_VOLUME_UP
+  &none  &kp F5   &kp F6   &kp F7   &kp F8   &none   &none   &none    &kp C_PP         &kp C_MUTE
+  &pswd  &kp F9  &kp F10  &kp F11  &kp F12   &none   &none   &none  &kp K_NEXT  &kp C_VOLUME_DOWN
                            &trans   &trans  &trans  &trans
             >;
         };
 
         Technical_layer {
             bindings = <
- &kp K_SLEEP   &none   &none   &none  &bt BT_SEL 0  &bt BT_SEL 3   &none   &none        &none   &none
+ &kp C_SLEEP   &none   &none   &none  &bt BT_SEL 0  &bt BT_SEL 3   &none   &none        &none   &none
        &none   &none   &none   &none  &bt BT_SEL 1  &bt BT_SEL 4   &none   &none        &none   &none
        &none   &none   &none   &none  &bt BT_SEL 2    &bt BT_CLR   &none   &none  &bootloader  &reset
                               &trans        &trans        &trans  &trans
